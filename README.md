@@ -1,2 +1,2 @@
 # telegram-chessbot
-Telegram bot  to manipulate Chess Engine
+Telegram bot to manipulate Chess Engine
