@@ -3,7 +3,7 @@
 
 Telegram bot to show best move on provided chess position
 
-![Alt text](/example.png?raw=true "Alt texs")
+![example](/example.png?raw=true "")
 
 ## Dependencies
 ----------
