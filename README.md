@@ -3,6 +3,7 @@
 Telegram bot to show best move on provided chess position
 
 ![example](/example.png?raw=true "")
+![example](/example.gif?raw=true "")
 
 ## Dependencies
 
