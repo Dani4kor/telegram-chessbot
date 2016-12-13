@@ -54,7 +54,16 @@ def call_stockfish_engine(message):
     else: return 'Chess Engine not readyok'
 
 
-
+@bot.message_handler(content_types=["text"])
+def repeat_all_messages(message): 
+    try:
+        fenPass(message.text)
+        move = call_stockfish_engine(message.text)
+        bot.send_message(message.chat.id, move)
+    except ValueError as e:
+        print '\nCheck position correctness of:' + str(message.text) + '\n'+ str(e.message)
+        move = str(e.message)
+        bot.send_message(message.chat.id, move)
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
