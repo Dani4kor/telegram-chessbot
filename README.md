@@ -6,6 +6,7 @@ Telegram bot to show best move on provided chess position
 
 ## Dependencies
 
+* [stockfish](https://stockfishchess.org/)
 * [stockfishpy](https://github.com/Dani4kor/stockfishpy)
 * [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
 
